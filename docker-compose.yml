@@ -1,0 +1,6 @@
+services:
+  frontend:
+    build: .
+    image: vite-react-app
+    ports:
+      - "3000:80"
