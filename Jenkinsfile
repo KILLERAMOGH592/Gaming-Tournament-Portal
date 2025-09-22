@@ -4,8 +4,10 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/your-username/project.git'
-            }
+        git branch: 'main', 
+            url: 'https://github.com/KILLERAMOGH592/Gaming-Tournament-Portal.git', 
+            credentialsId: 'github-token'
+    }
         }
 
         stage('Build Docker Image') {
