@@ -6,7 +6,7 @@ pipeline {
             steps {
         git branch: 'main', 
             url: 'https://github.com/KILLERAMOGH592/Gaming-Tournament-Portal.git', 
-            credentialsId: 'github-token'
+            credentialsId: '587469b0-568d-406b-aa15-95297518155e'
     }
         }
 
